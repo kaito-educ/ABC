@@ -134,7 +134,8 @@ def bot_share():
 		login()
 	os.system('clear')
 	logo_menu()
-	cetak(nel(f'''{P2} User Active     : {H2}{nama} 
+	cetak(nel(f'''{P2} Created By   : {H2}Fritz Martin Amparado 
+ {P2} User Active     : {H2}{nama} 
 {P2} You Id          : {id}
 {P2} You Ip          : {ip}
 {P2} Current Date    : {hari}, {tanggal}''',title=f'{P2} {H2}[ {P2}User Information {H2}]',subtitle_align='left',padding=1,style='blue'))
